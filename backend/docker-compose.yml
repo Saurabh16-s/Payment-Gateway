@@ -4,6 +4,6 @@ services:
     environment:
       POSTGRES_DB: payflow
       POSTGRES_USER: payflow
-      POSTGRES_PASSWORD: 12345678
+      POSTGRES_PASSWORD: ur pass
     ports:
       - "5434:5432"
