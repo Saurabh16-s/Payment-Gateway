@@ -88,8 +88,7 @@ cd frontend
 npm install
 npm start
 ```
-Frontend runs on `http://localhost:3000`.
-
+Frontend runs on `http://localhost:3000`
 ## Demoing idempotency
 
 The frontend's payment form generates a fresh UUID as the idempotency key for each new payment. Click **"Retry (same key)"** after a successful payment — the amount won't be charged twice, because the server recognizes the key and returns the cached result instead of re-running the transaction.
