@@ -1,6 +1,6 @@
 # PayFlow
 
-A minimal payment orchestration engine built to explore the core infrastructure problems behind systems like Stripe — idempotent transaction processing, double-entry ledger accounting, and per-client rate limiting.
+A minimal payment orchestration engine built to explore the core infrastructure problems behind systems like Stripe — idempotent transaction processing, double-entry ledger accounting, and per-client rate limiting
 
 This is not a checkout integration. It's a from-scratch payment processor: the layer that sits *behind* a "Pay Now" button, responsible for making sure money moves correctly, safely, and exactly once.
 
